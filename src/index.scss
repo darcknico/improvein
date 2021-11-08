@@ -1,0 +1,15 @@
+@import '~admin-lte/plugins/fontawesome-free/css/all.min.css';
+@import '~admin-lte/plugins/icheck-bootstrap/icheck-bootstrap.min.css';
+
+@import './themes/admin-lte.scss';
+@import '~overlayscrollbars/css/OverlayScrollbars.min.css';
+
+@import '~react-toastify/scss/main';
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+}

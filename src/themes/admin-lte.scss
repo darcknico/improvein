@@ -1,0 +1,44 @@
+// Bootstrap
+// ---------------------------------------------------
+@import '~bootstrap/scss/functions';
+@import '~admin-lte/build/scss/bootstrap-variables';
+
+// Variables and Mixins
+// ---------------------------------------------------
+@import './variables.scss'; //variables de admin-lte
+@import '~admin-lte/build/scss/variables-alt';
+@import '~admin-lte/build/scss/mixins';
+
+$theme-colors: (
+   blue: #4582ec,
+   indigo: #6610f2,
+   purple: #6f42c1,
+   pink: #e83e8c,
+   red: #d9534f,
+   orange: #fd7e14,
+   yellow: #f0ad4e,
+   green: #02b875,
+   teal: #354A53,
+   cyan: #17a2b8,
+   white: #fff,
+   gray: #868e96,
+   gray-dark: #343a40,
+
+   primary: #007bff,
+   secondary: #6c757d,
+   success: #38AC69,
+   info: #17a2b8,
+   warning: #f0ad4e,
+   danger: #d9534f,
+   light: #f8f9fa,
+   dark: #343a40,
+);
+
+@import '~bootstrap/scss/bootstrap';
+
+@import '~admin-lte/build/scss/parts/core';
+@import '~admin-lte/build/scss/parts/components';
+@import '~admin-lte/build/scss/parts/extra-components';
+@import '~admin-lte/build/scss/parts/pages';
+@import '~admin-lte/build/scss/parts/plugins';
+@import '~admin-lte/build/scss/parts/miscellaneous';
